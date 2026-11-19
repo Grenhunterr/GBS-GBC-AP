@@ -160,6 +160,86 @@
       "id": "5fa52cd0-57cd-414c-8b93-5601c6e9636f__L0",
       "name": "Defeated",
       "symbol": "var_defeated_2"
+    },
+    {
+      "id": "30",
+      "name": "total_quest",
+      "symbol": "var_total_quest"
+    },
+    {
+      "id": "31",
+      "name": "quest_perc_to_goal",
+      "symbol": "var_quest_perc_to_goal"
+    },
+    {
+      "id": "29",
+      "name": "goal?",
+      "symbol": "var_goal_"
+    },
+    {
+      "id": "35",
+      "name": "cat?",
+      "symbol": "var_cat_"
+    },
+    {
+      "id": "36",
+      "name": "ice_block?",
+      "symbol": "var_ice_block_"
+    },
+    {
+      "id": "37",
+      "name": "radio?",
+      "symbol": "var_radio_"
+    },
+    {
+      "id": "38",
+      "name": "sage?",
+      "symbol": "var_sage_"
+    },
+    {
+      "id": "39",
+      "name": "duck?",
+      "symbol": "var_duck_"
+    },
+    {
+      "id": "40",
+      "name": "space_dog?",
+      "symbol": "var_space_dog_"
+    },
+    {
+      "id": "41",
+      "name": "flower_lady?",
+      "symbol": "var_flower_lady_"
+    },
+    {
+      "id": "42",
+      "name": "turnips?",
+      "symbol": "var_turnips_"
+    },
+    {
+      "id": "43",
+      "name": "rocket_ship?",
+      "symbol": "var_rocket_ship_"
+    },
+    {
+      "id": "44",
+      "name": "hider?",
+      "symbol": "var_hider_"
+    },
+    {
+      "id": "32",
+      "name": "deathlink",
+      "symbol": "var_deathlink"
+    },
+    {
+      "id": "45",
+      "name": "house?",
+      "symbol": "var_house_"
+    },
+    {
+      "id": "46",
+      "name": "current_room",
+      "symbol": "var_current_room"
     }
   ],
   "constants": []

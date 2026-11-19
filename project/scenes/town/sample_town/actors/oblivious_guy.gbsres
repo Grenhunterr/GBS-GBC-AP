@@ -50,7 +50,38 @@
       }
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "39"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "f571aae1-a96f-408a-a73b-d38f28deb695"
+          }
+        ],
+        "false": []
+      },
+      "id": "58649834-2be1-481b-9899-ee3de1b1733d"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

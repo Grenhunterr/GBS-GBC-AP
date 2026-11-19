@@ -20,7 +20,16 @@
     "",
     "2ebac764-bebb-4707-920b-2a975675b2cb"
   ],
-  "spritePaletteIds": [],
+  "spritePaletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
   "autoFadeSpeed": 1,
   "script": [
     {
@@ -71,6 +80,17 @@
           }
         ]
       }
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "46",
+        "value": {
+          "type": "number",
+          "value": 3
+        }
+      },
+      "id": "b8772234-415d-4351-8568-e3bd57144e82"
     },
     {
       "id": "cd43ac8c-de3e-40c8-878e-0c0b66a9978f",

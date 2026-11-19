@@ -49,15 +49,55 @@
                 "type": "true"
               }
             }
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "0ba429f9-cee0-4a73-9cf4-0148b6989b36"
+            },
+            "id": "eea85ddc-7762-4546-9a48-b9a33748c950"
           }
         ],
         "false": [
           {
-            "id": "1063f8a8-90b7-4126-b6e4-1daf7c359c87",
-            "command": "EVENT_TEXT",
+            "command": "EVENT_IF",
             "args": {
-              "text": "What is that guy\nlooking at?"
-            }
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "39"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "b6294d56-b1a2-481f-b545-48fc9e9326a8",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "I wish this lake was\nmore interesting..."
+                    ]
+                  }
+                }
+              ],
+              "false": [
+                {
+                  "id": "1063f8a8-90b7-4126-b6e4-1daf7c359c87",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": "What is that guy\nlooking at?"
+                  }
+                }
+              ]
+            },
+            "id": "9b37548e-447c-43d8-99b3-1e4cd3ee0de3"
           },
           {
             "id": "7a86534c-dd9f-4005-b2e7-c880ea3f9014",

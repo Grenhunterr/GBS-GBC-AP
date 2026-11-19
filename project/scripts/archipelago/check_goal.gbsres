@@ -1,0 +1,58 @@
+{
+  "_resourceType": "script",
+  "id": "0ba429f9-cee0-4a73-9cf4-0148b6989b36",
+  "name": "archipelago/check_goal",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_15",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "30",
+        "value": {
+          "type": "expression",
+          "value": "$00$ + $01$ + $02$ + $03$ + $04$ + $05$ + $06$ + $07$ + $08$ + $09$ + $10$"
+        }
+      },
+      "id": "4875d0fc-d9d8-4007-91b7-75a426a04785"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "28",
+        "expression": "($30$ * 100) / 11"
+      },
+      "id": "eee48094-f9bc-4fcf-9d30-d12a1f85c2f3"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "expression",
+          "value": "($30$ * 100) / 11 >= $31$"
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "29",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "728284d5-6c87-4eaf-b7cc-f080e7d031d6"
+          }
+        ],
+        "false": []
+      },
+      "id": "45d3fdbd-6e42-4135-a8af-8409a5419e43"
+    }
+  ]
+}

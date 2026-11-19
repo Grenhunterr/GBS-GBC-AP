@@ -19,7 +19,49 @@
   "persistent": false,
   "collisionGroup": "1",
   "collisionExtraFlags": [],
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "6dbef8ae-faea-44c9-ba25-415b09c0472e": {
+      "id": "6dbef8ae-faea-44c9-ba25-415b09c0472e",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "42"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        }
+      }
+    },
+    "65673bf2-23f6-4409-b9d1-cf706b24aa55": {
+      "id": "65673bf2-23f6-4409-b9d1-cf706b24aa55",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "18"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        }
+      }
+    },
+    "6fb956b8-d844-4b0c-8fd3-b428d4851842": {
+      "id": "6fb956b8-d844-4b0c-8fd3-b428d4851842",
+      "args": {
+        "value": {
+          "type": "number",
+          "value": 2
+        }
+      }
+    }
+  },
   "script": [
     {
       "id": "d8c316d3-0e08-4f7b-923e-72c6d7bc9c96",

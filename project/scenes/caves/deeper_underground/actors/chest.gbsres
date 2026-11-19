@@ -73,6 +73,13 @@
                 "type": "true"
               }
             }
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "0ba429f9-cee0-4a73-9cf4-0148b6989b36"
+            },
+            "id": "f5677670-dae3-42f0-add3-0ae14a84c3fa"
           }
         ]
       }

@@ -63,6 +63,57 @@
             }
           },
           {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "42"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "They are around here\nsomewhere...",
+                      "If only I had an ITEM\nto know where they",
+                      "could have gone!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "f05b5150-a04b-4553-a441-b209a38141ae"
+                }
+              ],
+              "false": []
+            },
+            "id": "4c32758b-69c4-4cf3-8194-f96ed58c1b72"
+          },
+          {
             "id": "96e63d51-0006-4f7d-9e0e-28186f6dc0ca",
             "command": "EVENT_SET_VALUE",
             "args": {
@@ -138,6 +189,13 @@
                 "type": "true"
               }
             }
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "0ba429f9-cee0-4a73-9cf4-0148b6989b36"
+            },
+            "id": "fcaae0d0-606a-43ae-9f05-24983a7a53ca"
           }
         ],
         "false": [

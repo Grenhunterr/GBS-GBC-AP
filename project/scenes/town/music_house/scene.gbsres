@@ -28,6 +28,17 @@
       "command": "EVENT_MUSIC_STOP",
       "args": {},
       "id": "919e8390-3d03-4bfb-ba3e-5119c1bff417"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "46",
+        "value": {
+          "type": "number",
+          "value": 4
+        }
+      },
+      "id": "7dc3971c-6f5a-438f-a123-c653298829ca"
     }
   ],
   "playerHit1Script": [],

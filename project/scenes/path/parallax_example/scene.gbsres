@@ -103,6 +103,17 @@
         "musicId": "9aac47ff-51d7-48bf-9f15-1ce01b3872a4",
         "loop": true
       }
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "46",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "89d46a15-e011-40cf-86ad-c208b2b4991b"
     }
   ],
   "playerHit1Script": [],

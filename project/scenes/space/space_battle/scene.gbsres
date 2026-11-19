@@ -105,6 +105,17 @@
       }
     },
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "46",
+        "value": {
+          "type": "number",
+          "value": 8
+        }
+      },
+      "id": "03fc8fa7-9c6b-437f-ab51-195a50f7cc8a"
+    },
+    {
       "id": "9fdf6184-f7fa-4b3f-9889-2476c138462a",
       "command": "EVENT_ACTOR_MOVE_RELATIVE",
       "args": {

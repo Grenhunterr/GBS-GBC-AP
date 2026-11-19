@@ -72,6 +72,17 @@
       }
     },
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "46",
+        "value": {
+          "type": "number",
+          "value": 13
+        }
+      },
+      "id": "63f61a8b-98fd-445b-882c-89e90f493f12"
+    },
+    {
       "id": "646647bb-e8b8-41cb-add9-e9d3531aceac",
       "command": "EVENT_MUSIC_PLAY",
       "args": {
